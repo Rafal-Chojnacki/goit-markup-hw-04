@@ -20,6 +20,9 @@ body {
 	border-bottom: 1px solid #ececec;
 }
 .container-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	padding-top: 60px;
 	margin-top: 94px;
 }
@@ -34,8 +37,6 @@ body {
 	padding-top: 50px;
 }
 .logo-header {
-	display: inline-block;
-	text-align: center;
 	height: 80px;
 	padding: 25px 0px;
 }
@@ -68,21 +69,60 @@ body {
 	padding-left: 371px;
 }
 .li-header {
+	font-size: 14px;
 	font-weight: 500;
 	margin: 0px;
 }
 .ul-header-nav-contact {
-	width: 295px;
+	width: 321px;
+	align-items: center;
 }
 .li-header-nav-contact {
+	font-size: 14px;
 	font-weight: 500;
 	margin: 0px;
 }
+[id^='icon']:hover {
+	fill:#2196f3;
+	cursor: pointer;
+}
+.li-header-nav-contact > a > #icon-smartphone {
+	width: 10px;
+	height: 16px;
+	margin-left: 30px;
+	margin-right: 10px;
+
+}
+
+.li-header-nav-contact > a > #icon-envelope {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+}
+.li
 .description {
 	padding: 94px 0px;
 }
-.li-description {
-	height: 101px;
+.rectangle {
+	width: 270px;
+	height: 120px;
+	background: #f5f4fa;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	margin-right: 0;
+	position: relative;
+}
+.rectangle > .loremipsum-icons {
+	display: block;
+	height: 50%;
+	width: 50%;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 }
 .loremipsum {
 	font-size: 14px;
@@ -146,7 +186,7 @@ body {
 }
 .main-index {
 	height: 600px;
-	background-color: #2f303a;
+	background-image: url('../images/main-index.jpg');
 	color: white;
 }
 .h1index {
@@ -217,12 +257,11 @@ body {
 }
 .portfolio {
 	font-family: 'Raleway', sans-serif;
-	padding: 0px;
 }
 .ul-portfolio {
+	flex-wrap: wrap;
+	row-gap: 30px;
 	width: 1170px;
-	padding: 15px 0px;
-	font-weight: 500;
 }
 .li-portfolio {
 	font-size: 16px;
@@ -238,14 +277,13 @@ body {
 	float: left;
 }
 .portfolio-photos {
-	float: left;
 	width: 370px;
 	height: 404px;
 	padding: 15px;
 }
 .figure-portfolio {
+	margin: 0;
 	height: 404px;
-	margin: 0px;
 	border-bottom: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 	border-left: 1px solid #eeeeee;
@@ -253,7 +291,6 @@ body {
 .figcapition-portfolio {
 	height: 110px;
 	padding-left: 24px;
-	
 }
 .project-name {
 	font-weight: 700;
@@ -275,6 +312,7 @@ body {
 	color: white;
 }
 .link-header {
+	font-size: 14px;
 	color: black;
 }
 .link-footer {
@@ -285,6 +323,8 @@ body {
 }
 [class^='link']:hover {
 	color: #2196f3;
+	fill:#2196f3;
+	cursor: pointer;
 }
 [class^='link']:focus {
 	color: #2196f3;
