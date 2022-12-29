@@ -1,6 +1,9 @@
 body {
 	width: 1600px;
 }
+img {
+	display: block;
+}
 [class^='ul'] {
 	padding: 0;
 	margin: 0;
@@ -198,6 +201,11 @@ body {
 	margin-top: 30px;
 	margin-left: 700px;
 }
+.btn-index:hover {
+	background-color: #2196f3;
+	color: #ffffff;
+	cursor: pointer;
+}
 .btn-portfolio {
 	font-weight: 700;
 	font-size: 16px;
@@ -209,13 +217,11 @@ body {
 	padding: 6px 22px;
 }
 
-[class^='btn']:hover {
+.btn-portfolio:hover {
 	background-color: #2196f3;
 	color: #ffffff;
 	cursor: pointer;
-	box-shadow: 0px 2px 2px 0px #0000001f;
-	box-shadow: 0px 1px 2px 0px #00000014;
-	box-shadow: 0px 3px 1px 0px #0000001a;
+	box-shadow: -12px -12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 }
 [class^='btn']:focus {
 	background-color: #2196f3;
@@ -226,8 +232,8 @@ body {
 }
 .main-index {
 	height: 600px;
-	background-color: #2F303A;
-	background-image: url('../images/main-index.jpg');
+	background-color: #2f303a;
+	background-image: linear-gradient(rgb(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/main-index.jpg');
 	color: white;
 }
 .h1index {
@@ -257,7 +263,7 @@ body {
 	background-color: #f5f4fa;
 }
 .figure-our-team {
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 4px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	margin: 0px;
 }
@@ -311,9 +317,7 @@ body {
 }
 .figure-portfolio:hover {
 	cursor: pointer;
-	box-shadow: 1px 4px 6px 0px #00000029;
-	box-shadow: 0px 4px 4px 0px #0000000f;
-	box-shadow: 0px 1px 1px 0px #0000001f;
+	box-shadow: 14px 12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 }
 .figcapition-portfolio {
 	padding-left: 24px;
@@ -368,7 +372,6 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	
 }
 #link-mail-footer {
 	padding-top: 9px;
