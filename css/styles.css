@@ -148,10 +148,12 @@ img {
 	border-radius: 50%;
 	position: relative;
 }
-.link-circle-social-media:hover {
+.link-circle-social-media:hover,
+.link-circle-social-media:focus {
 	background-color: #2196f3;
 }
-.link-circle-social-media:hover > svg {
+.link-circle-social-media:hover > svg,
+.link-circle-social-media:focus > svg {
 	fill: white;
 }
 .icon-social-media {
@@ -173,7 +175,9 @@ img {
 	fill: #afb1b8;
 	position: relative;
 }
-.icon-rectangle-clients:hover {
+.icon-rectangle-clients:hover,
+.icon-rectangle-clients:focus
+ {
 	border: 1px solid #2196f3;
 	border-radius: 4px;
 	fill: #2196f3;
@@ -201,7 +205,8 @@ img {
 	margin-top: 30px;
 	margin-left: 700px;
 }
-.btn-index:hover {
+.btn-index:hover,
+.btn-index:focus {
 	background-color: #2196f3;
 	color: #ffffff;
 	cursor: pointer;
@@ -216,19 +221,12 @@ img {
 	width: auto;
 	padding: 6px 22px;
 }
-
-.btn-portfolio:hover {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
 	background-color: #2196f3;
 	color: #ffffff;
 	cursor: pointer;
 	box-shadow: -12px -12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
-}
-[class^='btn']:focus {
-	background-color: #2196f3;
-	cursor: pointer;
-	box-shadow: 0px 2px 2px 0px #0000001f;
-	box-shadow: 0px 1px 2px 0px #00000014;
-	box-shadow: 0px 3px 1px 0px #0000001a;
 }
 .main-index {
 	height: 600px;
@@ -315,7 +313,8 @@ img {
 	height: 404px;
 	border: 1px solid #eeeeee;
 }
-.figure-portfolio:hover {
+.figure-portfolio:hover,
+.figure-portfolio:focus {
 	cursor: pointer;
 	box-shadow: 14px 12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 }
@@ -355,6 +354,7 @@ img {
 }
 [class^='link']:focus {
 	color: #2196f3;
+	fill: #2196f3;
 }
 .footer-all {
 	display: flex;
@@ -390,7 +390,7 @@ img {
 	margin: 0;
 	justify-content: space-between;
 }
-.link-circle-footer-social-media {
+.link-footer-circle-social-media {
 	fill: #afb1b8;
 	width: 44px;
 	height: 44px;
@@ -398,10 +398,16 @@ img {
 	position: relative;
 	background: #ffffff1a;
 }
-.link-circle-footer-social-media:hover {
+.link-footer-circle-social-media:hover: {
 	background-color: #2196f3;
 }
-.link-circle-footer-social-media:hover > svg {
+.link-footer-circle-social-media:focus {
+	background-color: #2196f3;
+}
+.link-footer-circle-social-media:hover > svg {
+	fill: white;
+}
+.link-footer-circle-social-media:focus > svg {
 	fill: white;
 }
 .h3footer {
