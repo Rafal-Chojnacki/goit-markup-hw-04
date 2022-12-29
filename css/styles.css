@@ -226,6 +226,7 @@ body {
 }
 .main-index {
 	height: 600px;
+	background-color: #2F303A;
 	background-image: url('../images/main-index.jpg');
 	color: white;
 }
