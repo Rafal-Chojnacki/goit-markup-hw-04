@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <section class="container-header">
+        <div class="container-header">
             <div class="logo-header"><a class="link-header" href="index.html" title="WebStudio">
                     <span class="logo1">Web</span><span class="logo2header">Studio</span></a>
                 <nav class="header-nav">
@@ -53,7 +53,7 @@
                     </div>
                 </nav>
             </div>
-        </section>
+        </div>
         <div class="main-index">
             <section class="section">
                 <h1 class="h1index">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
@@ -63,14 +63,14 @@
     </header>
     <main class="container">
         <section class="section">
-            <ul class="ul">
+            <ul class="ul-description">
                 <li>
                     <div class="rectangle-description">
                         <svg class="loremipsum-icons">
                             <use href="./images/icons.svg#icon-antenna-1"></use>
                         </svg>
                     </div>
-                    <div class="loremipsum">
+                    <div>
                         <h3 class="h3index">LOREM IPSUM</h3>
                         <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
                             sem. Sed non sodales dui. Interdum et malesuada</p>
@@ -82,7 +82,7 @@
                             <use href="./images/icons.svg#icon-clock-1"></use>
                         </svg>
                     </div>
-                    <div class="loremipsum">
+                    <div>
                         <h3 class="h3index">LOREM IPSUM</h3>
                         <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                             arcusem.
@@ -95,7 +95,7 @@
                             <use href="./images/icons.svg#icon-diagram-1"></use>
                         </svg>
                     </div>
-                    <div class="loremipsum">
+                    <div>
                         <h3 class="h3index">LOREM IPSUM</h3>
                         <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                             arcusem.
@@ -108,7 +108,7 @@
                             <use href="./images/icons.svg#icon-astronaut-1"></use>
                         </svg>
                     </div>
-                    <div class="loremipsum">
+                    <div>
                         <h3 class="h3index">LOREM IPSUM</h3>
                         <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                             arcusem.
@@ -119,7 +119,7 @@
         </section>
         <section class="section">
             <h2 class="h2index">Czym się zajmujemy</h2>
-            <div class="photos">
+            <div>
                 <ul class="ul">
                     <li>
                         <img src="./images/tablet.jpg" alt="programer working his desk office" width="370" height="294">
@@ -140,17 +140,16 @@
         <section class="section">
             <h2 class="h2index">Nasz zespół</h2>
             <ul class="ul-our-team">
-                <li class="li-our-team">
+                <li>
                     <figure class="figure-our-team">
                         <img src="./images/product-designer.jpg" alt="photo of product designer John Doe" width="270"
                             height="260">
                         <figcaption class="our-team-photos">
-                            <span class="name-of-member">John Doe</span>
-                            <br>
-                            <span class="function-of-member">Product Designer</span>
+                            <div class="name-of-member">John Doe</div>
+                            <div class="function-of-member">Product Designer</div>
                             <ul class="ul-social-media">
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.instagram.com/" target="_blank" title="istagram">
+                                <li class="li-social-media"><a href="https://www.instagram.com/" target="_blank"
+                                        title="istagram">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -158,8 +157,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://www.twitter.com/"
-                                        target="_blank" title="twitter">
+                                <li class="li-social-media"><a href="https://www.twitter.com/" target="_blank"
+                                        title="twitter">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -167,8 +166,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.facebook.com/" target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://www.facebook.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -176,8 +175,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://pl.linkedin.com/"
-                                        target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://pl.linkedin.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -189,17 +188,16 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="li-our-team">
+                <li>
                     <figure class="figure-our-team">
                         <img src="./images/frontend-developer.jpg" alt="photo of frontend developer John Doe"
                             width="270" height="260">
                         <figcaption class="our-team-photos">
-                            <span class="name-of-member">John Doe</span>
-                            <br>
-                            <span class="function-of-member">Frontend Developer</span>
+                            <div class="name-of-member">John Doe</div>
+                            <div class="function-of-member">Frontend Developer</div>
                             <ul class="ul-social-media">
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.instagram.com/" target="_blank" title="istagram">
+                                <li class="li-social-media"><a href="https://www.instagram.com/" target="_blank"
+                                        title="istagram">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -207,8 +205,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://www.twitter.com/"
-                                        target="_blank" title="twitter">
+                                <li class="li-social-media"><a href="https://www.twitter.com/" target="_blank"
+                                        title="twitter">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -216,8 +214,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.facebook.com/" target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://www.facebook.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -225,8 +223,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://pl.linkedin.com/"
-                                        target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://pl.linkedin.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -238,16 +236,15 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="li-our-team">
+                <li>
                     <figure class="figure-our-team">
                         <img src="./images/marketing.jpg" alt="photo of marketing John Doe" width="270" height="260">
                         <figcaption class="our-team-photos">
-                            <span class="name-of-member">John Doe</span>
-                            <br>
-                            <span class="function-of-member">Marketing</span>
+                            <div class="name-of-member">John Doe</div>
+                            <div class="function-of-member">Marketing</div>
                             <ul class="ul-social-media">
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.instagram.com/" target="_blank" title="istagram">
+                                <li class="li-social-media"><a href="https://www.instagram.com/" target="_blank"
+                                        title="istagram">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -255,8 +252,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://www.twitter.com/"
-                                        target="_blank" title="twitter">
+                                <li class="li-social-media"><a href="https://www.twitter.com/" target="_blank"
+                                        title="twitter">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -264,8 +261,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media"
-                                        href="https://www.facebook.com/" target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://www.facebook.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -273,8 +270,8 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="li-social-media"><a class="link-social-media" href="https://pl.linkedin.com/"
-                                        target="_blank" title="facebook">
+                                <li class="li-social-media"><a href="https://pl.linkedin.com/" target="_blank"
+                                        title="facebook">
                                         <div class="link-circle-social-media">
                                             <svg class="icon-social-media">
                                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -286,18 +283,17 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li class="li-our-team">
+                <li>
                     <div class="photo">
                         <figure class="figure-our-team">
                             <img src="./images/ui-designer.jpg" alt="photo of marketing John Doe" width="270"
                                 height="260">
                             <figcaption class="our-team-photos">
-                                <span class="name-of-member">John Doe</span>
-                                <br>
-                                <span class="function-of-member">UI Designer</span>
+                                <div class="name-of-member">John Doe</div>
+                                <div class="function-of-member">UI Designer</div>
                                 <ul class="ul-social-media">
-                                    <li class="li-social-media"><a class="link-social-media"
-                                            href="https://www.instagram.com/" target="_blank" title="istagram">
+                                    <li class="li-social-media"><a href="https://www.instagram.com/" target="_blank"
+                                            title="istagram">
                                             <div class="link-circle-social-media">
                                                 <svg class="icon-social-media">
                                                     <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -305,8 +301,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="li-social-media"><a class="link-social-media"
-                                            href="https://www.twitter.com/" target="_blank" title="twitter">
+                                    <li class="li-social-media"><a href="https://www.twitter.com/" target="_blank"
+                                            title="twitter">
                                             <div class="link-circle-social-media">
                                                 <svg class="icon-social-media">
                                                     <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -314,8 +310,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="li-social-media"><a class="link-social-media"
-                                            href="https://www.facebook.com/" target="_blank" title="facebook">
+                                    <li class="li-social-media"><a href="https://www.facebook.com/" target="_blank"
+                                            title="facebook">
                                             <div class="link-circle-social-media">
                                                 <svg class="icon-social-media">
                                                     <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -323,8 +319,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="li-social-media"><a class="link-social-media"
-                                            href="https://pl.linkedin.com/" target="_blank" title="facebook">
+                                    <li class="li-social-media"><a href="https://pl.linkedin.com/" target="_blank"
+                                            title="facebook">
                                             <div class="link-circle-social-media">
                                                 <svg class="icon-social-media">
                                                     <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -400,7 +396,7 @@
         </section>
     </main>
     <footer class="footer-all">
-        <section class="container-footer-left">
+        <div class="container-footer-left">
             <div class="logo-footer"><a class="link-footer" href="index.html" title="WebStudio"><span
                         class="logo1">Web</span><span class="logo2footer">Studio</span></a>
             </div>
@@ -408,13 +404,12 @@
             <div id="link-mail-footer"><a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
             <div id="link-phone-footer"><a class="link-footer" href="tel:+48111111">+48 111 111 111</a></div>
-        </section>
+        </div>
         <section class="container-footer-right">
             <h3 class="h3footer">DOŁĄCZ DO NAS</h3>
             <div class="footer-social-media">
                 <ul class="ul-footer-social-media">
-                    <li class="li-social-media"><a class="link-social-media" href="https://www.instagram.com/"
-                            target="_blank" title="istagram">
+                    <li class="li-social-media"><a href="https://www.instagram.com/" target="_blank" title="istagram">
                             <div class="link-circle-footer-social-media">
                                 <svg class="icon-social-media">
                                     <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -422,8 +417,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li-social-media"><a class="link-social-media" href="https://www.twitter.com/"
-                            target="_blank" title="twitter">
+                    <li class="li-social-media"><a href="https://www.twitter.com/" target="_blank" title="twitter">
                             <div class="link-circle-footer-social-media">
                                 <svg class="icon-social-media">
                                     <use href="./images/icons.svg#icon-twitter-1"></use>
@@ -431,8 +425,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li-social-media"><a class="link-social-media" href="https://www.facebook.com/"
-                            target="_blank" title="facebook">
+                    <li class="li-social-media"><a href="https://www.facebook.com/" target="_blank" title="facebook">
                             <div class="link-circle-footer-social-media">
                                 <svg class="icon-social-media">
                                     <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -440,8 +433,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="li-social-media"><a class="link-social-media" href="https://pl.linkedin.com/"
-                            target="_blank" title="facebook">
+                    <li class="li-social-media"><a href="https://pl.linkedin.com/" target="_blank" title="facebook">
                             <div class="link-circle-footer-social-media">
                                 <svg class="icon-social-media">
                                     <use href="./images/icons.svg#icon-linkedin-1"></use>
